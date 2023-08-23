@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Edit Profile - Social App</title>
+</head>
+
+<body>
+    <main>
+        <header class="container">
+            <div class="logo">Social App</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Stars <i class="fa fa-star"></i></a></li>
+                    <li><a href="register.html" class="btn">Sign up</a></li>
+                </ul>
+                <span class="close-sidebar">x</span>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <section class="container">
+            <h3 class="section-heading">Edit Profile</h3>
+            <div class="profile">
+                <form action="">
+                    <div class="row">
+                        <div class="form_group">
+                            <label for="username">Username</label>
+                            <input type="text">
+                        </div>
+                        <div class="form_group">
+                            <label for="name">Name</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form_group">
+                            <label for="email">Email</label>
+                            <input type="email">
+                        </div>
+                        <div class="form_group">
+                            <label for="mobile">Mobile</label>
+                            <input type="number">
+                        </div>
+                    </div>
+                    <div class="row full">
+                        <div class="form_group">
+                            <label for="bio">Bio</label>
+                            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <p class="mtb-8">More Details</p>
+                    <div class="row">
+                        <div class="form_group">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" name="dob" id="dob">
+                        </div>
+                        <div class="form_group">
+                            <label for="gender">Gender</label>
+                            <select name="gender" id="gender">
+                                <option value="">Choose</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form_group">
+                            <label for="city">City</label>
+                            <input type="text" name="city" id="city">
+                        </div>
+                        <div class="form_group">
+                            <label for="pin_code">Pin code</label>
+                            <input type="number" name="pin_code" id="pin_code">
+                        </div>
+                       
+                    </div>
+                    <div class="row">
+                        <div class="form_group">
+                            <label for="state">State</label>
+                            <input type="text" name="state" id="state">
+                        </div>
+                        <div class="form_group">
+                            <label for="country">Country</label>
+                            <input type="text" name="country" id="country">
+                        </div>
+                       
+                    </div>
+                    <button class="btn">Update</button>
+                    <span class="additional-link">For additonal profile details <a href="#" class="underline-link">Click here</a></span>
+                </form>
+            </div>
+
+
+            <div class="notifications">
+                <div class="notification">
+                    Success Notification
+                  </div>
+                <div class="notification incorrect">
+                    Invalid Notification
+                  </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

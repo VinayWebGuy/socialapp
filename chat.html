@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Chat - Social App</title>
+</head>
+
+<body>
+    <main>
+        <header class="container">
+            <div class="logo">Social App</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Stars <i class="fa fa-star"></i></a></li>
+                    <li><a href="register.html" class="btn">Sign up</a></li>
+                </ul>
+                <span class="close-sidebar">x</span>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <section class="container">
+            <h3 class="section-heading">Chat</h3>
+
+            <div class="chat-section">
+
+                <div class="chat-box">
+                    <div class="chat-header">
+                        <div class="chat-img">
+                            <img src="https://source.unsplash.com/random/300x300" alt="">
+                        </div>
+                        <div class="chat-user-details">
+                            <p>John doe</p>
+                            <p>Offline <span class="offline"></span></p>
+                        </div>
+                        <i class="fa fa-ellipsis-v three-dots"></i>
+                        <div class="chat-action">
+                            <ul>
+                                <li>Report</li>
+                                <li>Block</li>
+                                <li>Clear</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="chat-body">
+                        <div class="msgg outgoing-msg">
+                            Hello
+                        </div>
+                        <div class="msgg incoming-msg">
+                            Hi
+                        </div>
+                        <div class="msgg outgoing-msg">
+                            How r you?
+                        </div>
+                        <div class="msgg incoming-msg">
+                            I'm good.
+                        </div>
+                        <div class="msgg incoming-msg">
+                            What's about you?
+                        </div>
+                        <div class="msgg outgoing-msg">
+                            I'm doing well.
+                        </div>
+                    </div>
+                    <div class="chat-footer">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <div class="msg-action">
+                            <i class="fa fa-file select-file"></i>
+                            <input type="file" name="file" id="file" accept="image/*" class="hidden-select-file">
+                            <button><i class="fa fa-paper-plane"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="my-friends">
+                    <h3>My friends</h3>
+                        <a class="my-friend" href="">
+                            <img src="https://source.unsplash.com/random/300x300" alt="">
+                            <p>John doe</p>
+                        </a>
+                        <a class="my-friend" href="">
+                            <img src="https://source.unsplash.com/random/300x300" alt="">
+                            <p>Chris Addam</p>
+                        </a>
+                        <a class="my-friend" href="">
+                            <img src="https://source.unsplash.com/random/300x300" alt="">
+                            <p>William Jack</p>
+                        </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

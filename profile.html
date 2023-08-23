@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Profile - Social App</title>
+</head>
+<body>
+    <main>
+        <header class="container">
+                <div class="logo">Social App</div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Stars <i class="fa fa-star"></i></a></li>
+                        <li><a href="register.html" class="btn">Sign up</a></li>
+                    </ul>
+                   <span class="close-sidebar">x</span>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+        </header>
+       <section class="container">
+        <h3 class="section-heading">Profile</h3>
+
+        <div class="profile">
+            <div class="profile-info">
+                <div class="username"><a href="#">@john_doe</a></div>
+                <div class="name">John Doe</div>
+                <div class="email">john@gmail.com</div>
+                <div class="mobile">+91 8528528520</div>
+                <div class="about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus vitae itaque modi unde, dolorum fugiat, voluptates odio nam porro exercitationem temporibus quaerat quidem aliquid odit ut adipisci architecto? Praesentium, vitae!</div>
+                <div class="badges">
+                    <div class="badge red"></div>
+                    <div class="badge yellow"></div>
+                    <div class="badge green"></div>
+                    <div class="badge pink"></div>
+                    <div class="badge blue"></div>
+                </div>
+                <div class="friend-actions">
+                    <button class="btn">Add Friend <i class="fa fa-user-plus"></i></button>
+                    <a href="chat.html" id="msg" class="btn btn2">Message <i class="fa fa-message"></i></a>
+                </div>
+            </div>
+            <div class="profile-pic">
+                <div class="profile-pic-shield">
+                    <img src="images/user.jpeg" draggable="false" alt="">
+                </div>
+            </div>
+        </div>
+       </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
